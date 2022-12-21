@@ -1,0 +1,121 @@
+/* 
+  Theme Name: Hospital Itaipu
+  Author: Rafael Lacerda Busatta
+  Version: 1.0
+*/
+
+body {
+  --green: #00b796;
+  --blue: #005470;
+  --gray: #747474;
+  --orange: #ff6c0e;
+  --orange-500: #eb6b23;
+}
+
+h2 {
+  color: var(--green);
+  font-weight: bold !important;
+  font-size: 36px !important;
+}
+
+.menu-principal a {
+  color: var(--gray);
+  font-weight: bold;
+}
+
+.menu-principal a:hover {
+  color: var(--orange);
+}
+
+.btn-itaipu {
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-gray {
+  background-color: #eaeaea;
+}
+
+.bg-orange {
+  background-color: var(--orange-500);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-white {
+  color: #fff;
+}
+
+.home-banner {
+  background: url(imagens/banner.png) no-repeat center center;
+  background-size: cover;
+  height: 626px;
+}
+
+.home-banner-container {
+  padding: 8rem !important;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 183, 150, 0.8) 3.86%,
+    rgba(217, 217, 217, 0) 68.56%
+  );
+}
+
+.home-banner-services {
+  text-align: center;
+  background-color: var(--blue);
+  height: 133px;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  margin: 0 auto;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.service img {
+  margin-right: 8px;
+  grid-row: 1 / span 2;
+}
+
+.service p {
+  grid-column: 2;
+}
+
+.borda {
+  border-left: 1px solid var(--blue);
+  border-radius: 6px;
+}
+
+.exames {
+  padding-top: 9rem;
+  padding-left: 8rem !important;
+  padding-bottom: 80px;
+}
+
+.especialidades,
+.estrutura {
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
+  padding-top: 5rem;
+}
