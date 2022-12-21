@@ -1,0 +1,1 @@
+# hospital-itaipu-wp-theme
